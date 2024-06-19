@@ -1,17 +1,17 @@
 package Java_apps;
 
-public class mortgage_calculator {
-    
-}
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class Main {
+public class mortgage_calculator {
     public static void main(String[] args) {
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
-        final float MAX_INTEREST_RATE = 20.0f; // Maximum allowed interest rate
-        int principal = 1000;
+        final float MAX_INTEREST_RATE = 20.0f; // The maximum allowed interest rate
+        final float MIN_INTEREST_RATE = 0.0f; // The minimum allowed interest rate
+        final int MIN_PRINCIPAL = 3000; // The minimum allowed principal 
+        final int 
+        
 
         Scanner scanner = new Scanner(System.in);
 
