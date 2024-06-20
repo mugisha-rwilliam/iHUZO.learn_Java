@@ -57,5 +57,7 @@ public class MortgageCalculator {
 
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("Your monthly mortgage is: " + mortgageFormatted);
+
+        scanner.close():
     }
 }
