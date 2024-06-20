@@ -3,7 +3,7 @@ public class FizzBuzz {
 }
 import java.util.Scanner;
 
-public class FizzBuzzCalculator {
+public class FizzBuzz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
